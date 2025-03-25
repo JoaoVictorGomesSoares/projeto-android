@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: beige;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.6);
+}
+header {
+    padding: 50px 20px 15px 20px;
+    background-image: linear-gradient(to bottom, rgb(81, 191, 81), rgb(24, 57, 24));
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p#cabecalho {
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding-bottom: 30px;
+}
+nav#menu > a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(105, 195, 105);
+}
+nav#menu > a:hover {
+    background-color: green;
+    border-radius: 3px;
+}
+main {
+    margin: 0px 200px;
+    padding: 20px;
+    background-color: white;
+}
+h2#especial {
+    font-size: 2em;
+    background-image: none; 
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    text-align: justify;
+    text-indent: 30px;
+}
+h2 {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.5), transparent);
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(24, 57, 24);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(24, 57, 24);
+}
+strong {
+    color: rgb(24, 57, 24);
+}
+mark {
+    padding: 2px 5px;
+    background-color: rgba(0, 128, 0, 0.3);
+}
+mark::after {
+    content: ' ☍';
+}
+.horizontal {
+    display: flex;
+    justify-content: center;
+}
+div#video {
+    border-radius: 0px;
+    margin: 0px 200px;
+    padding: 20px 10px;
+    background-color: rgb(24, 57, 24);
+}
+div {
+    border-radius: 10px;
+    background-color: rgba(105, 195, 105, 0.5);
+}
+div#extra > h2{
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(24, 57, 24);
+}
+div#extra > p{
+    margin: 15px;
+}
+a#extra {
+    text-decoration: none;
+    color: rgb(24, 57, 24);
+    font-weight: bold;
+}
+a#extra::after {
+    content: ' ☍';
+}
+a#extra:hover {
+    text-decoration: underline;
+}
+footer {
+    padding-bottom: 1px;
+    background-color: rgb(24, 57, 24);
+}
+p#rodape {
+    text-align: center;
+    color: white;
+}
+a#rodape {
+    text-decoration: none;
+    color: white;
+}
+a#rodape:hover {
+    text-decoration: underline;
+}
